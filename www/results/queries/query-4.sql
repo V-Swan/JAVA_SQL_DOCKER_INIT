@@ -1,0 +1,3 @@
+SELECT *
+FROM orders
+WHERE date >= DATE_SUB(CURDATE(), INTERVAL 10 DAY);
